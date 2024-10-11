@@ -1,0 +1,19 @@
+.label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  width: 280px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.input {
+  width: 160px;
+  outline: none;
+  border: solid 1px #b0c0c3;
+  border-radius: 2px;
+
+  font-weight: 700;
+}

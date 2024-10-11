@@ -1,0 +1,45 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 360px;
+}
+.formItem {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 320px;
+}
+.label {
+  font-size: 22px;
+  font-weight: 700;
+  border-color: #b0c0c3;
+}
+.submitButton {
+  display: flex;
+  min-width: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+  font-size: 18px;
+  border-color: #b0c0c3;
+}
+.input {
+  outline: transparent;
+  width: 220px;
+  padding-left: 4px;
+  border: solid 1px #b0c0c3;
+  border-radius: 2px;
+  font-weight: 700;
+}
+
+.errorSpan {
+  position: absolute;
+  min-width: 300px;
+  top: 24px;
+  left: 100px;
+  color: rgb(199, 0, 0);
+}
